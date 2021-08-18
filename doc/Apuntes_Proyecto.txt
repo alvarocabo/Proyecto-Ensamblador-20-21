@@ -1,0 +1,53 @@
+
+				   PROYECTO ENSAMBLADOR
+				ESTRUCTURA DE COMPUTADORES
+					    2020-2021
+					------------------
+
+Nota Proyecto = 0,7*pruebas + 0,3*examen
+Se puede sumar/restar 1 punto a la nota del proyecto dependiendo de la calidad del código y la memoria.
+
+
+Se recorren las matrices por filas.
+Para reservar espacio en el marco de pila se decrementar el puntero de pila. Debe reservarse un espacio múltiplo de 4.
+
+Filtrar una imagen es filtrar cada uno de sus píxeles. Cuando se quiere filtrar un píxel, se obtiene una submatriz de 3x3 donde el píxel que se quiere filtrar ocupa la posición central (2x2) y se aplica la matriz de filtro a dicha submatriz.
+
+Se utiliza arimética entera con signo, ya que los elementos del filtro pueden ser negativos.
+Los elementos de la submatriz son bytes sin signo.
+
+Para obtener la submatriz filtrada debe multiplicarse cada elemento de la submatriz original (obtenida de la matriz original a filtrar) por el filtro y por 256. El resultado obtenido debe luego dividirse entre 256. Si el píxel a filtrar está en el borde de la matriz, se mantiene su valor (no se filtra).
+
+nF debe ser una varible estática, es decir, debe estar en una dirección de memoria fija, en la dirección 0 de Mp y es un entero sin signo de 32 bits.
+
+En Sqrt1d, si el valor de entrada es menor que 2 se multiplica dicho valor por 10, si no se multiplica por 100. El valor devuelto debe interpretarse como si tuviera un decimal.
+
+En SubMatriz, i es un valor entre 1 y M-2 ya que los bordes de la matriz no se filtran.
+
+En Filtro hay dos bucles anidados con llamada a FilPixel.
+
+
+Para FiltRec:
+
+PPAL: LEA (r30, 8000)
+	  LEA (r2, Im1)
+	  LEA (r3, ImF)
+	  ...
+	  PUSH (r6)
+	  PUSH (r5)
+	  ...
+	  PUSH (r2)
+	  brs FiltRec
+	  codigo
+	  stop
+	  
+FiltRec: PUSH (r1)
+		 paso1
+		 paso2
+		 ...
+		 paso8
+				PUSH (parametros)
+				bsr FiltRec
+		 paso 9
+				retorna al llamante
+				jmp (r1)

@@ -1,0 +1,597 @@
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole el parámetro 100
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole el parámetro 0
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole el parámetro 1
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole el parámetro 2
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole el parámetro 100.000
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole un parámetro que es un
+cuadrado perfecto de un entero mayor que 10.000
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt', pasándole un parámetro cercano a
+un cuadrado perfecto de un número mayor que 1.000
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt' dos veces consecutivas, la segunda
+pasando como parámetro el resultado de la primera.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt' dos veces consecutivas, la segunda
+pasando como parámetro el resultado de la primera.
+El parámetro de la primera llamada es el cuadrado de
+un número de 3 cifras elevado al cuadrado más una unidad.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Sqrt' dos veces consecutivas, la segunda
+pasando como parámetro el resultado de la primera.
+El parámetro de la primera llamada es un número muy bajo.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'nFiltrados' pasándole un parámetro no nulo para
+iniciar la variable nF, que tiene un valor nulo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'nFiltrados' pasándole un parámetro nulo para
+iniciar la variable nF, que tiene un valor positivo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'nFiltrados' pasándole un parámetro negativo para
+decrementar la variable nF, que tiene un valor positivo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'nFiltrados' pasándole un parámetro negativo para
+decrementar la variable nF, que tiene un valor unitario
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'nFiltrados' pasándole un parámetro negativo para
+decrementar la variable nF, que tiene un valor nulo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'nFiltrados' pasándole un parámetro negativo para
+decrementar la variable nF que tiene un valor erróneo (negativo)
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a dos veces a 'nFiltrados' para iniciar la variable nF
+primero a un valor nulo, después a uno no nulo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a dos veces a 'nFiltrados' la primera para iniciar la
+variable nF a un valor positivo, la segunda para decrementarlo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a dos veces a 'nFiltrados' la primera para iniciar la
+variable nF a un valor positivo, la segunda con un parámetro
+negativo
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama tres veces a 'nFiltrados' la primera para iniciar la
+variable nF a un valor positivo, la segunda con un parámetro
+negativo y la última con otro positivo.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes identicas de
+3x3 elementos.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes identicas de
+3x4 elementos nulos.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes de 4x8 elementos
+que difieren en uno solo de ellos.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a Comp, pasándole dos imágenes diferentes de
+4x8 elementos. Se observan diferencias, en algunos casos
+negativas y en otros positivas, en varios píxeles de las
+imágenes, tales que en una de ellas se usa un valor por
+encima de 128 y en la otra por debajo de 128.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes idénticas de
+8x8 elementos, la mitad de ellos nulos.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes idénticas de
+8x8 elementos, la mitad de ellos nulos.
+Se comprueba la inicialización del valor de retorno.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes de 4x8 elementos
+en las que difieren todos sus elementos en una o en dos
+unidades.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes de 8x8 elementos
+en las que todos sus elementos difieren en +/-1.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes de 8x8 elementos
+en las que todos sus elementos difieren en +/-1. Los
+registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Comp', pasándole dos imágenes de 4x5 elementos
+en las que difieren varios de ellos.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 3x3 elementos
+de la que se ha de extraer la subimagen correspondiente al
+elemento central.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 4x4 elementos
+de la que se ha de extraer la subimagen correspondiente a un
+elemento interior (1,1).
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 4x4 elementos
+de la que se ha de extraer la subimagen correspondiente a un
+elemento interior (2,2).
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 5x5 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 5x5 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 7x7 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior (cercano a una esquina derecha).
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 7x7 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior (cercano a una esquina izquierda).
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 5x8 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 3x7 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'SubMatriz', pasándole una imagen de 5x8 elementos
+de la que se ha de extraer la subimagen correspondiente a uno
+de los píxeles del interior de la imagen.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen nula
+excepto en su elemento central y un filtro identidad.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen nula excepto
+en uno de sus elementos del borde, junto con un filtro identidad.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un filtro
+que dobla y cambia el signo del elemento al que se aplica.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un
+filtro que duplica el valor del elemento sobre el que se aplica.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un
+filtro que devuelve el doble de la suma de los ocho elementos
+que lo rodean y que excede del valor máximo de un píxel.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un
+filtro que devuelve el valor negativo del doble de la suma de
+los ocho elementos que lo rodean.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un
+filtro que devuelve la suma de los ocho elementos que lo rodean
+y supera el valor máximo admitido para un elemento de la imagen.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un filtro
+que devuelve la suma de los elementos de la fila superior y la
+inferior a la del pixel a filtrar.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un filtro
+que devuelve un valor que es función de los ocho elementos que rodean
+al píxel seleccionado, de modo que el resultado supera el valor máximo.
+El valor de retorno no está inicializado en el programa principal.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'ValorPixel', pasándole una subimagen no nula y un filtro
+que devuelve un valor que es función de los ocho elementos que rodean
+al píxel seleccionado, de modo que el resultado es negativo.
+El valor de retorno no está inicializado en el programa principal.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasando una imagen de 4x8 elementos y un filtro
+identidad que se aplica a un elemento del interior de la imagen.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 5x5 elementos y un
+filtro identidad que se aplica a un píxel del interior de la imagen.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y un
+filtro que cambia el signo del píxel al que se aplica y le suma el
+valor del situado en la misma columna y en la fila anterior.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y
+un filtro que duplica el valor del píxel sobre el que se
+aplica y le resta el valor del situado a su izquierda.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y
+un filtro que devuelve la media de los ocho elementos que
+rodean al píxel seleccionado.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y
+un filtro que devuelve una suma ponderada de los ocho elementos
+que rodean al píxel seleccionado.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos, con
+varios elementos nulos, otros cercanos al máximo y un filtro que
+opera con un píxel cuyo valor es cercano al máximo.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y
+un filtro que devuelve la suma promediada de los elementos de
+la columna izquierda menos la misma suma pero de los elementos
+de la columna derecha del píxel seleccionado.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y un
+filtro que multiplica por -8 el valor del píxel seleccionado y le
+suma el valor de los ocho píxeles que lo rodean. El resultado se
+ajusta al valor mínimo (0).
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FilPixel', pasándole una imagen de 4x6 elementos y un filtro
+que devuelve un valor que es función de los ocho elementos que rodean al
+píxel seleccionado. El resultado está limitado al valor máximo.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos
+y un filtro que devuelve para cada elemento su media con los dos
+vecinos de la misma fila.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos
+y un filtro que devuelve para cada elemento su media con los dos
+vecinos de la misma diagonal (de NO a SE).
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos y
+un filtro que sustituye cada elemento por la media de los que le
+rodean.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos y
+un filtro que sustituye cada elemento por la media de los que le
+rodean.
+Los registros parten de valores distintos de 0.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos y
+un filtro que multiplica por 4 cada elemento y le resta tres veces el
+valor del situado en la misma columna de la fila anterior.
+Algunos elementos alcanzan el valor máximo y otros el mínimo.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x6 elementos
+y un filtro identidad, que devuelve la misma imagen recibida.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x5 elementos
+y un filtro que multiplica por 4 cada elemento y le resta tres
+veces el valor del situado en la misma columna de la fila anterior.
+Algunos elementos alcanzan el valor máximo.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen no nula de 4x5 elementos y
+un filtro que multiplica por 4 cada elemento y le resta tres veces el
+valor del situado en la misma columna de la fila anterior.
+Los registros parten de valores distintos de 0 y algunos elementos
+alcanzan el valor máximo o el mínimo.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen de 4x6 elementos y un
+filtro que tiene algunos coeficientes negativos.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'Filtro' pasándole una imagen de 4x6 elementos y un
+filtro que sustituye cada píxel por la media de los que están
+situados en los cuatro vértices de la submatriz que lo rodea.
+El filtro utiliza coeficientes negativos.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro que devuelve para cada píxel la media de los que lo
+rodean.
+El parámetro NCambios tiene valor 40 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro que devuelve para cada píxel la media de los que lo
+rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro que devuelve para cada píxel un valor algo mayor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro que devuelve para cada píxel un valor algo menor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro que devuelve para cada píxel la media de los que lo rodean
+calculada mediante coeficientes negativos.
+El parámetro NCambios tiene valor 0 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro formado por coeficientes distintos de "1/8" que devuelve
+para cada píxel la media de los que lo rodean.
+El parámetro NCambios tiene valor 0 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x7 elementos, con un
+filtro que devuelve para cada píxel un valor algo mayor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x7 elementos, con un
+filtro que devuelve para cada píxel un valor algo menor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 5x5 elementos, con un
+filtro que devuelve para cada píxel un valor algo menor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 5x5 elementos, con un
+filtro que devuelve para cada píxel un valor algo mayor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 1 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x7 elementos, con un
+filtro que sustituye cada elemento por el doble de su valor menos
+el doble del valor de los situados a su izquierda y a su derecha.
+El parámetro NCambios tiene valor 1 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 5x5 elementos, con un
+filtro que sustituye cada píxel por el doble de su valor menos el
+doble del valor de los situados a su izquierda y a su derecha.
+El parámetro NCambios tiene valor 1 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 5x5 elementos, con un
+filtro que devuelve para cada píxel un valor algo menor que la
+media de los que lo rodean.
+El parámetro NCambios tiene valor 3 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x8 elementos, con un
+filtro que sustituye cada píxel por la media de los que están
+situados en los cuatro vértices de la submatriz que lo rodea.
+El parámetro NCambios tiene valor 0 y nF se inicia a 2.
+Los registros parten de valores distintos de cero.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 4x8 elementos como la
+mostrada en el ejemplo del enunciado ("Caso de prueba de la
+subrutina FiltRec").
+Los registros parten de valores distintos de cero.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Llama a 'FiltRec' sobre una imagen de 5x5 elementos, con
+un filtro que devuelve para cada píxel la mitad de su valor.
+El parámetro NCambios tiene valor 2 y nF se inicia a 5.
+Los registros parten de valores distintos de cero.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración COdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a Comp, pasándole dos imágenes diferentes de
+4x8 elementos. Se observan diferencias, en algunos casos
+negativas y en otros positivas, en varios píxeles de las
+imágenes, tales que en una de ellas se usa un valor por
+encima de 128 y en la otra por debajo de 128.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración COdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'Comp', pasándole dos imágenes de 8x8 elementos
+en las que todos sus elementos difieren en +/-1.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FPdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'FilPixel', pasándole una imagen de 4x8 elementos y un
+filtro que cambia el signo del píxel al que se aplica y le suma el
+valor del situado en la misma columna y en la fila anterior.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FPdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'FilPixel', pasándole una imagen de 4x6 elementos y un filtro
+que devuelve un valor que es función de los ocho elementos que rodean al
+píxel seleccionado. El resultado está limitado al valor máximo.
+Los registros parten de valores distintos de 0.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FIdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos
+y un filtro que devuelve para cada elemento su media con los dos
+vecinos de la misma diagonal (de NO a SE).
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FIdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'Filtro' pasándole una imagen no nula de 4x8 elementos y
+un filtro que multiplica por 4 cada elemento y le resta tres veces el
+valor del situado en la misma columna de la fila anterior.
+Algunos elementos alcanzan el valor máximo y otros el mínimo.
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FRdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro que devuelve para cada píxel la media de los que lo
+rodean.
+El parámetro NCambios tiene valor 40 y nF se inicia a 4.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FRdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'FiltRec' sobre una imagen de 4x4 elementos, con un
+filtro formado por coeficientes distintos de "1/8" que devuelve
+para cada píxel la media de los que lo rodean.
+El parámetro NCambios tiene valor 0 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+------------------------------------------------------------------
+Su implementación falla en una prueba en que se hace lo siguiente:
+- Depuración FRdeb: Utiliza las subrutinas auxiliares del DATSI
+Llama a 'FiltRec' sobre una imagen de 4x7 elementos, con un
+filtro que sustituye cada elemento por el doble de su valor menos
+el doble del valor de los situados a su izquierda y a su derecha.
+El parámetro NCambios tiene valor 1 y nF se inicia a 10.
+_Error de alineamiento a palabra_ 
+---------------------------------
+	Casos de prueba:       95
+	Pasados: 0
+	Con error: 95
+	Alineamiento a palabra erróneo: 83
+---------------------------------
+Nº de pruebas que falla por subrutina: 
+Subr nFiltrados 10 de 10
+Subr Sqrt 10 de 10
+Subr Comp 10 de 10
+Subr SubMatriz 10 de 10
+Subr ValorPixel 10 de 10
+Subr FilPixel 10 de 10
+Subr Filtro 10 de 10
+Subr FiltRec 16 de 16
+Subr COdeb 2 de 2
+Subr FPdeb 2 de 2
+Subr FIdeb 2 de 2
+Subr FRdeb 3 de 3
+Fecha: 11/12/19     21:49

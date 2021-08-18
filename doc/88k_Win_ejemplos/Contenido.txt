@@ -1,0 +1,21 @@
+
+Materia:    Estructura de Computadores.
+Archivo:    88k_Win_ejemplos.zip
+
+El presente archivo contiene una colección de ejemplos
+que serán utilizados en la práctica de la asignatura
+Estructura de Computadores.
+
+-------------------------------------------------------
+
+Ejemplo1:  Programa mínimo. Suma de dos registros.
+
+Ejemplo2:  Programa principal y subrutina de suma.
+           Paso de parámetros en registros.
+           Punto de entrada: LLAM.
+
+Ejemplo3:  Pseudo-instrucciones org, res, data.
+           Almacenamiento de datos numéricos.
+           Almacenamiento de caracteres (ASCII).
+           Definición y uso de la macro LEA.
+

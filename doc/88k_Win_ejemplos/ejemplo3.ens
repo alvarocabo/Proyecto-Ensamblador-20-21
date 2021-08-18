@@ -1,0 +1,42 @@
+; Materia:    Estructura de Computadores.
+; Archivo:    88k_Win_ejemplos.zip
+; ----------------------------------------------------------------------
+;
+; ATENCIÓN: contiene errores sintácticos que se deben corregir antes de ensamblar
+;
+; Ejemplo3: Pseudo-instrucciones org, res, data.
+;           Almacenamiento de datos numéricos.
+;           Almacenamiento de caracteres alfanuméricos (ASCII).
+;           Códigos ASCII: 'e'=0x65 'r'=0x72 's'=0x73 't'=0x74 ...
+; 
+              org     0x100 ; comienzo en dirección hexadecimal 100
+A:            res     20  ; reserva de 20 bytes para almacenamiento auxiliar
+DA1:  data    0x95969798, 0x191A1B1C            ; dos palabras inicializadas
+DA2:  data    "estructura de computadores\0"    ; tira de 26 bytes inicializados (+ '\0')
+DA3:  data    16, -1, 0x4, 0x0C, -255, 255, 0x0, 0 /fin/
+;
+;
+; Programa Principal (PPAL) situado en la dirección 1000
+;
+              org     1000.0
+PPAL:         or      r10, r0, low(DA1)  ; r10 contiene la dirección reflejada en DA1
+                                         ; observese que cabe en 16 bits
+              ld      r20, r10, 0        ; palabra almacenada en DA1
+              ld.b    r21, r10, 0        ; 1er byte de palabra almacenada en DA1 (signo)
+              ld.bu   r22, r10, 0        ; 1er byte de palabra almacenada en DA1 (sin signo)
+              ld.h    r23, r10, 0        ; 1ª mitad ('half') de palabra almacenada en DA1 (signo)
+              ld.hu   r24, r10, 0        ; 1ª mitad de palabra almacenada en DA1 (sin signo)
+              ld.d    r25, r10, 0        ; doble palabra almacenada a partir de DA1 (r25,r26)
+;
+              or      r11, r0, low(DA2)  ; r11 contiene la dirección reflejada en DA2
+              ld      r27, r11, 0        ; palabra almacenada a partir de DA2
+;
+              or      r12, r0, low(DA3)  ; r12 contiene la dirección reflejada en DA3
+              ld      r28, r12, 0        ; palabra almacenada a partir de DA3
+              ld      r29, r12, 4        ; palabra almacenada a partir de DA3+4
+              ld      r30, r12, 16       ; palabra almacenada a partir de DA3+16
+              ld      r31, r12, 20       ; palabra almacenada a partir de DA3+20
+;
+			  ld      r01, 0, r11        ; palabra almacenada a partir de DA1+0
+;
+              stop                       ; 'instrucción' para finalizar el emulador
